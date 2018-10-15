@@ -1,6 +1,6 @@
 # liri-node-app
 
-https://drive.google.com/file/d/1_aMdAY8TLTdz8vx9sxdIBZ4urE7vmjvE/view?usp=sharing
+To see the app in action: https://drive.google.com/file/d/1_aMdAY8TLTdz8vx9sxdIBZ4urE7vmjvE/view?usp=sharing
 
 ### Overview
 
