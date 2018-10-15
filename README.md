@@ -10,8 +10,8 @@ You can search for concerts for a particular artist using the Bands In Town API,
 
 ### Command line functions
 
-To search an artist for upcoming concerts: node liri.js concert-this "<artist name>"
+To search an artist for upcoming concerts: node liri.js concert-this "[artist name]"
 
-To search a movie: node liri.js movie-this "<movie name>"
+To search a movie: node liri.js movie-this "[movie name]"
  
-To search a song: node liri.js spotify-this-song "<song name>"
+To search a song: node liri.js spotify-this-song "[song name]"
