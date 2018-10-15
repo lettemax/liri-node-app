@@ -4,7 +4,7 @@ To see the app in action: https://drive.google.com/file/d/1_aMdAY8TLTdz8vx9sxdIB
 
 ### Overview
 
-LIRI: like iPhone's SIRI, but a _Language_ Interpretation and Recognition Interface. LIRI will is a command line node app that takes in parameters and gives you back data.
+LIRI: like iPhone's SIRI, but a _Language_ Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data.
 
 You can search for concerts for a particular artist using the Bands In Town API, movies using the OMDB API and songs using the Spotify API.
 
