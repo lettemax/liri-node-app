@@ -1,0 +1,150 @@
+The venue is: Staples Center
+The venue is in: Los Angeles
+The concert is on: 2018-10-14
+The venue is: The Forum
+The venue is in: Los Angeles
+The concert is on: 2018-10-16
+The venue is: The Forum
+The venue is in: Los Angeles
+The concert is on: 2018-10-17
+The venue is: The Forum
+The venue is in: Los Angeles
+The concert is on: 2018-10-19
+The venue is: The Forum
+The venue is in: Los Angeles
+The concert is on: 2018-10-20
+The venue is: Oracle Arena
+The venue is in: Oakland
+The concert is on: 2018-10-26
+The venue is: USS Hornet Aircraft Carrier
+The venue is in: Alameda
+The concert is on: 2018-10-26
+The venue is: Oracle Arena
+The venue is in: Oakland
+The concert is on: 2018-10-27
+The venue is: Oracle Arena
+The venue is in: Oakland
+The concert is on: 2018-10-29
+The venue is: Tacoma Dome
+The venue is in: Tacoma
+The concert is on: 2018-11-01
+The venue is: Rogers Arena
+The venue is in: Vancouver
+The concert is on: 2018-11-03
+The venue is: Rogers Arena
+The venue is in: Vancouver
+The concert is on: 2018-11-04
+The venue is: Rogers Place
+The venue is in: Edmonton
+The concert is on: 2018-11-06
+The venue is: Rogers Place
+The venue is in: Edmonton
+The concert is on: 2018-11-07
+The venue is: AmericanAirlines Arena
+The venue is in: Miami
+The concert is on: 2018-11-13
+The venue is: AmericanAirlines Arena
+The venue is in: Miami
+The concert is on: 2018-11-14
+The venue is: State Farm Arena
+The venue is in: Atlanta
+The concert is on: 2018-11-16
+The venue is: State Farm Arena
+The venue is in: Atlanta
+The concert is on: 2018-11-17
+The venue is: Chateau Le Jardin Event Venue
+The venue is in: Woodbridge
+The concert is on: 2018-11-29
+The venue is: Accorhotels Arena
+The venue is in: Paris
+The concert is on: 2019-03-08
+The venue is: Accorhotels Arena
+The venue is in: Paris
+The concert is on: 2019-03-09
+Movie title: Up
+Released: 2009
+IMDB rating: 8.3
+Rotten Tomatoes: 98%
+Artist: Kanye West
+Song: POWER
+Preview link: null
+Album: My Beautiful Dark Twisted Fantasy
+Movie title: Fletch
+Released: 1985
+IMDB rating: 6.9
+Rotten Tomatoes: 76%
+The venue is: The Forum
+The venue is in: Los Angeles
+The concert is on: 2018-10-16
+The venue is: The Forum
+The venue is in: Los Angeles
+The concert is on: 2018-10-17
+The venue is: The Forum
+The venue is in: Los Angeles
+The concert is on: 2018-10-19
+The venue is: The Forum
+The venue is in: Los Angeles
+The concert is on: 2018-10-20
+The venue is: Oracle Arena
+The venue is in: Oakland
+The concert is on: 2018-10-26
+The venue is: USS Hornet Aircraft Carrier
+The venue is in: Alameda
+The concert is on: 2018-10-26
+The venue is: Oracle Arena
+The venue is in: Oakland
+The concert is on: 2018-10-27
+The venue is: Oracle Arena
+The venue is in: Oakland
+The concert is on: 2018-10-29
+The venue is: Tacoma Dome
+The venue is in: Tacoma
+The concert is on: 2018-11-01
+The venue is: Rogers Arena
+The venue is in: Vancouver
+The concert is on: 2018-11-03
+The venue is: Rogers Arena
+The venue is in: Vancouver
+The concert is on: 2018-11-04
+The venue is: Rogers Place
+The venue is in: Edmonton
+The concert is on: 2018-11-06
+The venue is: Rogers Place
+The venue is in: Edmonton
+The concert is on: 2018-11-07
+The venue is: Enterprise Center
+The venue is in: Saint Louis
+The concert is on: 2018-11-10
+The venue is: AmericanAirlines Arena
+The venue is in: Miami
+The concert is on: 2018-11-13
+The venue is: AmericanAirlines Arena
+The venue is in: Miami
+The concert is on: 2018-11-14
+The venue is: State Farm Arena
+The venue is in: Atlanta
+The concert is on: 2018-11-16
+The venue is: State Farm Arena
+The venue is in: Atlanta
+The concert is on: 2018-11-17
+The venue is: Chateau Le Jardin Event Venue
+The venue is in: Woodbridge
+The concert is on: 2018-11-29
+The venue is: Accorhotels Arena
+The venue is in: Paris
+The concert is on: 2019-03-08
+The venue is: Accorhotels Arena
+The venue is in: Paris
+The concert is on: 2019-03-09
+Artist: Kanye West
+Song: POWER
+Preview link: null
+Album: My Beautiful Dark Twisted Fantasy
+Movie title: Up
+Released: 2009
+IMDB rating: 8.3
+Rotten Tomatoes: 98%
+Movie title: Fletch
+Released: 1985
+IMDB rating: 6.9
+Rotten Tomatoes: 76%

@@ -38,32 +38,35 @@ if (command=="concert-this") {
         if (!error && response.statusCode === 200) {
             // Parse the body of the site and recover just the venue name
             // (Note: The syntax below for parsing isn't obvious. Just spend a few moments dissecting it).
-            console.log("The venue is: " + JSON.parse(body)[0].venue.name);
-            // Parse the body of the site and recover just the venue location
-            console.log("The venue is in: " + JSON.parse(body)[0].venue.city);
-            // Parse the body of the site and recover just the date of the event
-            console.log("The concert is on: " + JSON.parse(body)[0].datetime.split("T")[0]);
+            for (var i = 0; i<JSON.parse(body).length; i++) {
+                console.log("The venue is: " + JSON.parse(body)[i].venue.name);
+                // Parse the body of the site and recover just the venue location
+                console.log("The venue is in: " + JSON.parse(body)[i].venue.city);
+                // Parse the body of the site and recover just the date of the event
+                console.log("The concert is on: " + JSON.parse(body)[i].datetime.split("T")[0]);
+                // log a dashed line
+                console.log("-----------");
+                // Next, we store the text given to us from the query
+                var text = "The venue is: " + JSON.parse(body)[i].venue.name + "\n"
+                            + "The venue is in: " + JSON.parse(body)[i].venue.city + "\n"
+                            + "The concert is on: " + JSON.parse(body)[i].datetime.split("T")[0] + "\n";
 
-            // Next, we store the text given to us from the query
-            var text = "The venue is: " + JSON.parse(body)[0].venue.name + "\n"
-                        + "The venue is in: " + JSON.parse(body)[0].venue.city + "\n"
-                        + "The concert is on: " + JSON.parse(body)[0].datetime.split("T")[0] + "\n";
+                // Next, we append the text into the "log.txt" file.
+                // If the file didn't exist, then it gets created on the fly.
+                fs.appendFile("log.txt", text, function(err) {
 
-            // Next, we append the text into the "log.txt" file.
-            // If the file didn't exist, then it gets created on the fly.
-            fs.appendFile("log.txt", text, function(err) {
+                // If an error was experienced we will log it.
+                if (err) {
+                    console.log(err);
+                }
 
-            // If an error was experienced we will log it.
-            if (err) {
-                console.log(err);
+                // If no error is experienced, we'll log the phrase "Content Added" to our node console.
+                else {
+                    console.log("Content added to log.txt");
+                }
+
+                });
             }
-
-            // If no error is experienced, we'll log the phrase "Content Added" to our node console.
-            else {
-                console.log("Content added to log.txt");
-            }
-
-            });
         } else if (error) {
             console.log("Error occurred: " + error);
         }
@@ -211,32 +214,35 @@ if (command=="concert-this") {
                 if (!error && response.statusCode === 200) {
                     // Parse the body of the site and recover just the venue name
                     // (Note: The syntax below for parsing isn't obvious. Just spend a few moments dissecting it).
-                    console.log("The venue is: " + JSON.parse(body)[0].venue.name);
-                    // Parse the body of the site and recover just the venue location
-                    console.log("The venue is in: " + JSON.parse(body)[0].venue.city);
-                    // Parse the body of the site and recover just the date of the event
-                    console.log("The concert is on: " + JSON.parse(body)[0].datetime.split("T")[0]);
+                    for (var i = 0; i<JSON.parse(body).length; i++) {
+                        console.log("The venue is: " + JSON.parse(body)[i].venue.name);
+                        // Parse the body of the site and recover just the venue location
+                        console.log("The venue is in: " + JSON.parse(body)[i].venue.city);
+                        // Parse the body of the site and recover just the date of the event
+                        console.log("The concert is on: " + JSON.parse(body)[i].datetime.split("T")[0]);
+                        // log a dashed line
+                        console.log("-----------");
+                        // Next, we store the text given to us from the query
+                        var text = "The venue is: " + JSON.parse(body)[i].venue.name + "\n"
+                                    + "The venue is in: " + JSON.parse(body)[i].venue.city + "\n"
+                                    + "The concert is on: " + JSON.parse(body)[i].datetime.split("T")[0] + "\n";
 
-                    // Next, we store the text given to us from the query
-                    var text = "The venue is: " + JSON.parse(body)[0].venue.name + "\n"
-                                + "The venue is in: " + JSON.parse(body)[0].venue.city + "\n"
-                                + "The concert is on: " + JSON.parse(body)[0].datetime.split("T")[0] + "\n";
+                        // Next, we append the text into the "log.txt" file.
+                        // If the file didn't exist, then it gets created on the fly.
+                        fs.appendFile("log.txt", text, function(err) {
 
-                    // Next, we append the text into the "log.txt" file.
-                    // If the file didn't exist, then it gets created on the fly.
-                    fs.appendFile("log.txt", text, function(err) {
+                        // If an error was experienced we will log it.
+                        if (err) {
+                            console.log(err);
+                        }
 
-                    // If an error was experienced we will log it.
-                    if (err) {
-                        console.log(err);
+                        // If no error is experienced, we'll log the phrase "Content Added" to our node console.
+                        else {
+                            console.log("Content added to log.txt");
+                        }
+
+                        });
                     }
-
-                    // If no error is experienced, we'll log the phrase "Content Added" to our node console.
-                    else {
-                        console.log("Content added to log.txt");
-                    }
-
-                    });
                 } else if (error) {
                     console.log("Error occurred: " + error);
                 }
