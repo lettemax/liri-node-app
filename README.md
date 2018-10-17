@@ -15,7 +15,17 @@ To search an artist for upcoming concerts: node liri.js concert-this "[artist na
 ![liri-node-app](concert-this.png)
 
 To search a movie: node liri.js movie-this "[movie name]"
+
+![liri-node-app](movie-this.png)
  
 To search a song: node liri.js spotify-this-song "[song name]"
+
+![liri-node-app](spotify-this-song.png)
+
+To do a preset search read from a txt file: node liri.js do-what-it-says
+
+![liri-node-app](do-what-it-says.png)
+
+
 
 
